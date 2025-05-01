@@ -1,5 +1,5 @@
 # Uris-Program-Code
-Storing the source codes of 23098581d's Uris porgram
+Storing the source codes Uris porgram
 
 ## Code RINEX_processing_main_f.m 
 is a Matlab code for processing GNSS data and outputting a csv file which contains 
