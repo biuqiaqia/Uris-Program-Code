@@ -16,11 +16,11 @@ D2R = pi/180;
 R2D = 180/pi;
 
 % Load building KML file
-kml_file = 'NewData/buildings/港晶三围单通.kml';
+kml_file = 'file path.kml';
 [building_struct_all] = read_kml(kml_file); % Ensure read_kml is implemented
 % Read satellite data CSV file
-obsname = '2024Da14';
-satellite_filename = ['out/', obsname, '.csv']; % Path to satellite data file
+obsname = '.obs file name';
+satellite_filename = ['file path', obsname, '.csv']; % Path to satellite data file
 satellite_data = readtable(satellite_filename); % Read satellite data
 %%
 % Extract necessary columns from CSV
@@ -139,7 +139,7 @@ satellite_data.tooSmall = [];
 satellite_data = satellite_data(satellite_data.Elevation > 0, :);
 
 % Save updated data to a new CSV file
-output_filename = ['DataTag/output/', obsname, '_tag.csv']; % Output filename
+output_filename = ['out put path', obsname, '_tag.csv']; % Output filename
 writetable(satellite_data, output_filename);
 
 % Print completion message
