@@ -14,7 +14,7 @@ import matplotlib
 start_time = time.time()
 
 #data loading and preprocessing
-ds = pd.read_csv('C:/Users/ZHANG/OneDrive - The Hong Kong Polytechnic University/桌面/MLP_diff/TagDatabase.csv')
+ds = pd.read_csv('TagDatabase.csv file path')
 features = ds[['CNR', 'Elevation']].values
 labels = ds['Type'].values
 
