@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-ds = pd.read_csv('C:/Users/ZHANG/OneDrive - The Hong Kong Polytechnic University/桌面/NewData/out/1side_diff_d2a.csv')
+ds = pd.read_csv('.csv file path')
 
 a = 6378137
 b = 6356752.3142
