@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kowloon_bay.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>KL_model</name>
+		<open>1</open>
+		<Placemark>
+			<name>a1</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.2116285165631,22.31961477214586,9.999999999999998 114.2112908972283,22.31958419695433,9.999999999999998 114.2111712040065,22.32075180188853,9.999999999999998 114.2115093765081,22.32078119208558,9.999999999999998 114.2116285165631,22.31961477214586,9.999999999999998 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>a2</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.211556201433,22.31960634680853,39 114.2113631060351,22.31959002549929,39 114.2112430179377,22.32075702987162,39 114.2114343500529,22.32077410994517,39 114.211556201433,22.31960634680853,39 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>b1</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.21099354551,22.31955616229706,9 114.2106555703877,22.3195249933422,9 114.2104983997363,22.32105207700053,9 114.2108389478418,22.32108235757125,9 114.21099354551,22.31955616229706,9 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>b2</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.21099354551,22.31955616229706,39 114.2106572839358,22.31952645544265,39 114.2106424667257,22.31968315073507,39 114.210712481468,22.31969063947737,39 114.2106235211996,22.32054216536868,39 114.2105540035606,22.32053649638669,39 114.2105010248024,22.32105174474105,39 114.2108376757415,22.32108413332321,39 114.2108931996047,22.3205640934128,39 114.2108205501598,22.32056068102347,39 114.210907446992,22.31970695154125,39 114.2109786960512,22.31971365049254,39 114.21099354551,22.31955616229706,39 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>c1</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.2114779731131,22.32083221875139,19 114.2111657962194,22.32080426025248,19 114.2110677084854,22.32174498429031,19 114.2111121825983,22.32180807531117,19 114.2113744428623,22.32183217656607,19 114.2114779731131,22.32083221875139,19 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>c2</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.2114629650964,22.32096998920536,79.99999999999999 114.2111505353971,22.32094292053266,79.99999999999999 114.2110758404384,22.32167507346018,79.99999999999999 114.2113880685184,22.3217033053036,79.99999999999999 114.2114629650964,22.32096998920536,79.99999999999999 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>d1</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.210876252001,22.321269513833,19 114.2104838500631,22.32123431760008,19 114.210430166934,22.32174041538093,19 114.2108549717751,22.3217865330824,19 114.2109203729591,22.32171901795926,19 114.2109542507627,22.32135463070186,19 114.210876252001,22.321269513833,19 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>d2</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.2108326998189,22.32126918650438,44 114.2105286245259,22.32124053627279,44 114.2105263278085,22.32125684923484,44 114.2104959426843,22.32125459728861,44 114.2104930287303,22.32129259093983,44 114.2104736016517,22.32129090183099,44 114.2104325637766,22.32168790657062,44 114.2104525065982,22.32168890193575,44 114.2104494142713,22.32172592842968,44 114.2104766025956,22.32172803207801,44 114.2104744480132,22.32174689263896,44 114.2107806408154,22.32177138666027,44 114.2107840536246,22.32175716187487,44 114.2108129272974,22.32175877352155,44 114.2108155034619,22.32172327376973,44 114.2108340020391,22.32172586642269,44 114.2108755766057,22.3213291376462,44 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>e2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.2104497183231,22.31949017865113,186 114.2103199128884,22.31949907661762,186 114.2103223520775,22.31952641487372,186 114.2099603382512,22.31955272950068,186 114.2099394318553,22.31966115957972,186 114.2099376004662,22.31973068163067,186 114.2099440397553,22.31979982668692,186 114.2099632494018,22.31988080240855,186 114.2101565645564,22.3198661009063,186 114.2101500544906,22.3197858417469,186 114.2103451598743,22.31976888687773,186 114.2103541215543,22.31985137675378,186 114.2104912243899,22.31983984556058,186 114.2105055939004,22.3197658740843,186 114.2105112644628,22.31969043810583,186 114.2105007791737,22.31960626945641,186 114.2104497183231,22.31949017865113,186 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>e3</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.2104026322554,22.32052518115588,150 114.2103718951876,22.3208266573141,150 114.2102260396507,22.32081248430448,150 114.2102247936805,22.32080396677294,150 114.2101940054679,22.32080097457172,150 114.2102217838077,22.32052190019666,150 114.2102546849385,22.32052579265062,150 114.2102582515723,22.32051171080778,150 114.2104026322554,22.32052518115588,150 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>e4</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.2098727956335,22.32046161798011,180 114.2102199436153,22.32049829940253,180 114.2101861103588,22.32081938010673,180 114.2098401015688,22.32079227688984,180 114.2098727956335,22.32046161798011,180 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>f</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+					114.2101904793957,22.31861156309963,16 114.2101668671465,22.31890803467082,16 114.211286774095,22.3189961717848,16 114.2113158053507,22.31870209111296,16 114.2101904793957,22.31861156309963,16 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
