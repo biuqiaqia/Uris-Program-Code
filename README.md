@@ -1,7 +1,7 @@
 # Uris-Program-Code
 Storing the source codes Uris porgram
 
-## Dataprocess
+## DataProcess
 ### Code RINEX_processing_main_f.m 
 is a Matlab code for processing GNSS data and outputting a csv file which contains 
 % GPS_Time
@@ -30,7 +30,7 @@ is a Matlab code for processing GNSS data and outputting a csv file which contai
 ### Folders "goGPS", "fsaxen-ParforProgMon-f99c6f0", "gtsam_toolbox-master"
 are all the required environmental configuration files, such as the required functions or toolkits.
 
-## Datatag
+## DataTag
 ### Code zzy_skymask_generation_f.m
 is a Matlab code for marking the GNSS data type. Using kml files containing corresponding building information.
 type 0 is NLOS
