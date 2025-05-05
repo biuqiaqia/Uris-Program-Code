@@ -18,14 +18,14 @@ m2lon = 1/103043;
 
 %% File Input
 % OPPO data
-% filename_obs = 'gnss_log_2023_08_18_16_10_14';% Ublox
-% % load(['data\',filename_obs,'_nmea.mat']);
+% filename_obs = '.obs file name';% Ublox
+% % load(['file path',filename_obs,'_nmea.mat']);
 % % gt_waypoint = [rcvPosResult(1,2:4),1;...
 % %                rcvPosResult(end,2:4),0];%LLH and epoch
-% gt_waypoint = [22.304521586,114.17943231,3,1;...
-%                22.3045215861,114.179432311,3.001,5000];
-% filename_nav = 'data\hksc230i.23n';           
-% ref_obs_path = 'data\hksc230i.23o';
+% gt_waypoint = [22.304521586(start receiver ground truth),114.17943231(start receiver ground truth),3(start receiver ground truth height),1;...
+%                22.3045215861(start receiver ground truth),114.179432311(start receiver ground truth),3.001(start receiver ground truth height),5000(devide frequency)];
+% filename_nav = 'ephemeris file path like(hksc230i.23n)';           
+% ref_obs_path = 'ephemeris file path like(hksc230i.23o)';
 
 % OPPO data
 filename_obs = '2024Da34';% Ublox
@@ -49,7 +49,7 @@ DD_pr_error_tag = 1;
 NLOS_labeling_tag = 2;
         
 %% Read Eph and Obs data
-obs_path = ['NewData/obs/',filename_obs,'.obs'];
+obs_path = ['file path',filename_obs,'.obs'];
 global weights 
 weights = 0;
 global FTABLE;
